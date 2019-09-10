@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:padding="10dp"
+    android:padding="5dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
@@ -11,12 +12,12 @@
         android:layout_height="120dp"/>
 
     <TextView
-        android:layout_margin="10dp"
-        android:textSize="18dp"
-        android:textColor="#461818"
-        android:text="Name"
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Ten Video"
+        android:textColor="#461818"
+        android:textSize="18dp" />
 
 </LinearLayout>
